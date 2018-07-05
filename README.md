@@ -1,5 +1,5 @@
 # Building an Accordion
-_To complete this test, you are expected to build an accordion to match the below steps as closely as possible._
+_To complete this test, you are expected to build an accordion to match the below steps as closely as possible. Please fork this repository for your work and submit your response via a pull request._
 
 ## Steps
 1. A design for the accordion has been drawn up and is included in this folder called accordion-design.png.
