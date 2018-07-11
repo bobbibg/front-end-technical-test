@@ -34,7 +34,9 @@ body {
 .closed {
     /* css animation */
     overflow: hidden;
-    padding: 0;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
     max-height: 0;
     opacity: 0;
     margin: 0;
