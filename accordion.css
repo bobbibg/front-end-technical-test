@@ -1,8 +1,49 @@
-/*
- Add your CSS in here. Feel free to add / remove selectors as necessary.
-*/
+body {
+    background-color: #92d1c3;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-.accordion {}
-.accordion__item {}
-.accordion__title {}
-.accordion__answer {}
+.accordion {
+    background-color: #ffffff;
+    color: #000000;
+    width: 790px;
+    margin: 50px auto;
+}
+
+.accordion h2 {
+    cursor: pointer;
+    background-color: #8789c0;
+    color: #ffffff;
+    font-size: 1.6em;
+    height: 40px;
+    line-height: 1.5;
+    padding: 15px;
+    margin: 0;
+    border-bottom: 3px solid #4d4e72;
+}
+
+.accordion .accordion__item {
+    background-color: #ffffff;
+}
+
+.accordion p {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+.closed {
+    /* css animation */
+    overflow: hidden;
+    padding: 0;
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.content-open {
+    max-height: 500px;
+    opacity: 1;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
